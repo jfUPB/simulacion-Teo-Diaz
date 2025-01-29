@@ -30,8 +30,6 @@ class Walker {
     point(this.x, this.y);
   }
 
-  // Give the walker a greater tendency to move down and left by making
-  // the random range larger in that direction
   step() {
     let xstep = random(-2.75, 3);
     let ystep = random(-2.75, 3);
