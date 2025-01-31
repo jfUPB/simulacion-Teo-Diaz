@@ -1,1 +1,1 @@
-![captura del ejercicio](/src/assets/src/assets/ejercicio.png)
+![captura del ejercicio](/src/assets/ejercicio.png)
