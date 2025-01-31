@@ -3,9 +3,6 @@
 ¿Que paso? logre hacer que camine en diagonales agregando un if (else) y luego lo puse a moverse exclusivamente a la derecha
 Codigo original:
 
-// The Nature of Code, Exercise 0.1
-// Solution by Rick Sidwell
-// http://natureofcode.com
 
 let walker;
 
