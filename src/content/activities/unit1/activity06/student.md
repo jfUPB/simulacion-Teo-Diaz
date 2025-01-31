@@ -60,3 +60,5 @@ function levyStep() {
   return stepSize * 10;
 }
 ```
+### Captura de pantalla
+![captura del ejercicio](/src/assets/Salto_Levy.png)
