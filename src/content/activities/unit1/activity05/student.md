@@ -63,3 +63,6 @@ class Walker {
 ```
 ### Captura
 ![captura del ejercicio](/src/assets/ejercicio.png)
+
+### Explicación breve
+El "walker" se desplaza de acuerdo con una distribución normal y cómo sus posiciones se agrupan formando una distribución gaussiana visual en el lienzo. Los puntos más cercanos al centro (cerca de la media) se agruparán más densamente, mientras que los puntos más alejados se dispersarán menos.
