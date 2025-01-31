@@ -1,1 +1,1 @@
-![captura del ejercicio](/src/assets/Captura de pantalla 2025-01-31 101051.png)
+![captura del ejercicio](/src/assets/src/assets/ejercicio.png)
