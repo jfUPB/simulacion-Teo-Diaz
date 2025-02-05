@@ -1,4 +1,16 @@
+**1)** El código genera círculos (salpicaduras) en una cuadrícula con controles deslizantes para ajustar parámetros como el tamaño, la dispersión, el color (tono, saturación, brillo), y la transparencia. También tienes un botón para borrar la pantalla y reiniciar la simulación.
 
+**2)** 
+**Cambios realizados**:
+**Posición (x, y)**: Ahora las posiciones de las salpicaduras (x, y) se generan utilizando noise(time) y noise(time + 1000), lo que les da una variabilidad suave pero continua. La función noise() devuelve valores en el rango de 0 a 1, y multiplicamos por el tamaño del lienzo para ubicar correctamente las salpicaduras.
+
+**Tamaño de las salpicaduras**: El tamaño de las salpicaduras también está controlado por el ruido Perlin, utilizando noise(time + 2000) para obtener un valor suave que se usa para el tamaño. El valor de tamaño se ajusta con el control deslizante de "Size".
+
+**Colores**: El matiz (hue) de las salpicaduras se genera con noise(time + 3000), que da un valor suave y en el rango de [0, 360] para obtener un color en el espectro HSB. La saturación y el brillo se mantienen con valores aleatorios basados en una distribución normal (randomGaussian), pero puedes ajustarlos a tu gusto.
+
+**Animación**: Se ha agregado una animación suave incrementando time en cada fotograma. Esto hace que las salpicaduras cambien suavemente de lugar, tamaño y color.
+
+Transparencia: El valor de transparencia se ajusta con el control deslizante correspondiente y se utiliza en la función fill() de p5.js.
 
 ### Codigo
 ```javascript
