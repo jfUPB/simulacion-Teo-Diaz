@@ -1,5 +1,6 @@
 # Actividad 4
 ### Solucion
+```javascript
 let walker;
 
 function setup() {
@@ -31,3 +32,4 @@ class Walker {
     this.y += ystep;
   }
 }
+```
