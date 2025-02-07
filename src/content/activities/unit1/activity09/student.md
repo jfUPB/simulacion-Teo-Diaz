@@ -21,10 +21,15 @@ function draw() {
   } else {
     mode = "Perlin";
   }
-  
+    
   // Llamar al método de paso según el modo
   walker.step(mode);
   walker.show();
+  
+  // Verificar si el walker está fuera de los límites del canvas
+  if (walker.x < 0 || walker.x > width || walker.y < 0 || walker.y > height) {
+    walker.resetToCenter();
+  }
 }
 
 class Walker {
@@ -32,14 +37,19 @@ class Walker {
     this.x = width / 2;
     this.y = height / 2;
     this.time = 0; // Variable para animar el ruido Perlin
+    this.color = color(random(255), random(255), random(255)); // Color aleatorio inicial
   }
 
   show() {
-    stroke(0);
-    point(this.x, this.y);
+    noFill();  // No rellenar el círculo
+    stroke(this.color);  // Establecer el color del borde del círculo
+    square(this.x, this.y, 20);  // Dibujar el círculo
   }
 
   step(mode) {
+    
+    print(mode)
+    
     let xstep, ystep;
 
     if (mode === "Levy") {
@@ -63,8 +73,8 @@ class Walker {
   // Función para pasos con salto de Lévy (Levy flight)
   levyStep() {
     // Usamos una distribución de Ley de Potencias (exponente -1.5)
-    let r = pow(random(1), -1.5);  // Distribución de Ley de Potencias
-    return random([-1, 1]) * r * 10; // Paso aleatorio multiplicado por un valor en potencia
+    let r = pow(random(1), 2);  // Distribución de Ley de Potencias
+    return random([-1, 1]) * r * 20; // Paso aleatorio multiplicado por un valor en potencia
   }
 
   // Función para pasos con ruido Perlin
@@ -78,5 +88,13 @@ class Walker {
     this.time += 0.01;  // Incrementar el tiempo para el siguiente paso
     return noiseVal * 2;  // Escalar el ruido
   }
+
+  // Método para restablecer la posición al centro con un color aleatorio
+  resetToCenter() {
+    this.x = width / 2;
+    this.y = height / 2;
+    this.color = color(random(255), random(255), random(255)); // Nuevo color aleatorio
+  }
 }
+
 ````
