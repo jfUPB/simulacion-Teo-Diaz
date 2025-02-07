@@ -1,6 +1,8 @@
 ### Codigo
 
-```javascript
+[Enlace al editor de p5.js con la simulación](https://editor.p5js.org/Teo-Diaz/sketches/3d8nPcaIn)
+
+``` javascript
 let walker;
 let mode = "Gaussian"; // El modo inicial será "Gaussian"
 
