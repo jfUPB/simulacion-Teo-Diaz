@@ -1,7 +1,7 @@
 ### Codigo
 
 [Enlace al editor de p5.js con la simulación](https://editor.p5js.org/Teo-Diaz/sketches/3d8nPcaIn)
-![captura del ejercicio](/src/assets/Perlin.png)
+![captura del ejercicio](/src/assets/unidad_1.png)
 ``` javascript
 let walker;
 let mode = "Gaussian"; // El modo inicial será "Gaussian"
