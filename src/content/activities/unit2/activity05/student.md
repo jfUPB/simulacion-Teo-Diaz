@@ -16,21 +16,18 @@ function draw() {
   let v2End = p5.Vector.add(v0, v2); // Punto final de v2
 
   let v4 = p5.Vector.sub(v2End, v1End);
-
   
-  let v3 = p5.Vector.lerp(v1End, p5.Vector.add(v1End, v4), t * direction);
+  let v3 = p5.Vector.lerp(v1End, p5.Vector.add(v2End, v4), t * direction);
 
-  // Dibuja los vectores
   drawArrow(v0, v1, 'red');
   drawArrow(v0, v2, 'blue');
   drawArrow(v0, v3, 'purple');
   drawArrow(v1End, v4, 'green');
 
-  // Actualiza la variable de tiempo y la dirección
   t += 0.01;
   if (t >= 1) {
     t = 0;
-    direction *= -1; // Invierte la dirección cuando t llega a 1
+    direction *= -1;
   }
 }
 
@@ -47,4 +44,5 @@ function drawArrow(base, vec, myColor) {
   triangle(0, arrowSize / 2, 0, -arrowSize / 2, arrowSize, 0);
   pop();
 }
+
 ```
