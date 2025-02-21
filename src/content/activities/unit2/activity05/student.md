@@ -9,15 +9,15 @@ function setup() {
 function draw() {
     background(200);
 
-    let v0 = createVector(50, 50);
-    let v1 = createVector(200, 0);  
-    let v2 = createVector(0, 200);  
+    let v0 = createVector(50, 50); // Origen
+    let v1 = createVector(200, 0); // Vector 1
+    let v2 = createVector(0, 200); // Vector 2 
 
     let v1_end = v0.copy().add(v1);
     let v2_end = v0.copy().add(v2);
-    let v4 = v2_end.copy().sub(v1_end);
+    let v4 = v2_end.copy().sub(v1_end); // Vector 4
 
-    v3 = p5.Vector.lerp(v1, v2, t);
+    v3 = p5.Vector.lerp(v1, v2, t); // Vector 3 en relación a v1, v2 y el tiempo 
 
     t += 0.01;
     if (t > 1) t = 0;
