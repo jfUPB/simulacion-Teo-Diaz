@@ -1,5 +1,11 @@
-Cambios realizados:
+## Cambios realizados:
 Cambio en la velocidad al tocar los bordes: Ahora, cuando el objeto toca cualquiera de los bordes (izquierda, derecha, arriba o abajo), la velocidad del objeto se ajusta de manera aleatoria. Esto significa que la dirección y la rapidez del objeto pueden cambiar cada vez que rebote en el borde del canvas.
+
+## Resultado esperado:
+Movimiento más impredecible: Con este cambio, el objeto mover ya no se moverá de manera continua y predecible a través del canvas. Cada vez que toque un borde, su velocidad cambiará de manera aleatoria, lo que provocará que el objeto se mueva de manera más errática.
+
+Efecto visual: El movimiento será menos suave y más impredecible, ya que cada vez que el objeto toque un borde, podría empezar a moverse más rápido o más lento, o incluso cambiar de dirección de manera completamente aleatoria. Esto puede crear un patrón de movimiento más "caótico" en el lienzo.
+
 ``` javascript
 // Declare the Mover object.
 let mover;
