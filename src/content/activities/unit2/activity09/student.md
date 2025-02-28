@@ -1,4 +1,4 @@
-Con la constante el objeto simplemente sigue aumentando su velocidad hasta hacer que el programa falle
+Con la constante el objeto simplemente sigue aumentando su velocidad hasta hacer que el programa falle.
 ``` javascript
 let x = 0;
 let v = 0;
