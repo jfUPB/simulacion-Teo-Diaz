@@ -1,3 +1,4 @@
+![captura del ejercicio](/src/assets/canvasCapture.png)
 ``` javascript
 let x, y;
 let vx = 0;
