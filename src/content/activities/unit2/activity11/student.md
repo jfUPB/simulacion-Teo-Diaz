@@ -22,17 +22,39 @@ function draw() {
   // Fondo blanco, no transparente para que las partículas se queden visibles
   background(255);
   
-  if (mode === 'towardsMouse') {
-    let angle = atan2(mouseY - y, mouseX - x);
-    ax = cos(angle) * 0.1; // Aceleración hacia el mouse en x
-    ay = sin(angle) * 0.1; // Aceleración hacia el mouse en y
-  }
+  // Calcular la distancia entre el objeto y el cursor
+  let distToCursor = dist(x, y, mouseX, mouseY);
+
+  // Ajustar la aceleración en función de la distancia
+  let maxAccel = 0.1;  // Aceleración máxima
+  let minAccel = 0.01; // Aceleración mínima
+  let accelFactor = map(distToCursor, 0, width, minAccel, maxAccel);  // Mapeo de la distancia a la aceleración
+
+  // Calcular el ángulo hacia el mouse
+  let angle = atan2(mouseY - y, mouseX - x);
+
+  // Aceleración hacia el mouse con la aceleración ajustada
+  ax = cos(angle) * accelFactor;
+  ay = sin(angle) * accelFactor;
 
   // Actualizar la velocidad y posición
   vx += ax;
   vy += ay;
   x += vx;
   y += vy;
+
+  // Verificar si el objeto sale del canvas y hacer que aparezca en el lado opuesto
+  if (x > width) {
+    x = 0;  // Aparece por el lado izquierdo
+  } else if (x < 0) {
+    x = width;  // Aparece por el lado derecho
+  }
+  
+  if (y > height) {
+    y = 0;  // Aparece en la parte superior
+  } else if (y < 0) {
+    y = height;  // Aparece en la parte inferior
+  }
 
   // Crear partículas con un tamaño relativo al tamaño del objeto
   let particleSize = objSize / 3;  // Las partículas son más pequeñas que el objeto
@@ -94,4 +116,5 @@ class Particle {
     ellipse(this.x, this.y, this.size, this.size);  // Dibuja la partícula con el tamaño asignado
   }
 }
+
 ```
