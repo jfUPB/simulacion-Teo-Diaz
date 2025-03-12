@@ -1,0 +1,1 @@
+Basicamente trate de entendender y aplicar los conceptos al leerlos en los ejemplos y actividades, en ocaciones me tuve que ayudar con inteligencias artificiales como CHATGPT y ARIA para solucionar algunas actividades en las que me vi atascado
