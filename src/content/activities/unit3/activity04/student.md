@@ -48,7 +48,3 @@
 * **Un automóvil que acelera:**  La fuerza del motor del automóvil actúa sobre el vehículo, lo que le da una aceleración en la dirección del movimiento.
 * **Una pelota que cae:** La fuerza de gravedad actúa sobre la pelota, lo que le da una aceleración hacia abajo.
 * **Un patinador sobre hielo que se detiene:**  La fuerza de fricción entre los patines y el hielo actúa sobre el patinador, lo que le da una aceleración en dirección opuesta a su movimiento, hasta que se detiene.
-
-**En resumen:**
-
-La aceleración es un concepto fundamental en las leyes de movimiento de Newton. Es la respuesta directa de un objeto a una fuerza aplicada.  Sin aceleración, no habría movimiento o cambio en el movimiento.
