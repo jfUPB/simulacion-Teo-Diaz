@@ -1,8 +1,4 @@
 ``` javascript
-// The Nature of Code, Exercise 0.1
-// Solution by Rick Sidwell
-// http://natureofcode.com
-
 let walker;
 
 function setup() {
