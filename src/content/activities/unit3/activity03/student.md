@@ -1,7 +1,6 @@
 ## Que me llamo la atención
 Me llamo la atención el como se calcula y programa la gravedad
 ## Relación
-¡Excelente pregunta! Las leyes de Newton y los vectores están íntimamente relacionados. Aquí te explico cómo:
 
 **Las Leyes de Newton**
 
@@ -29,6 +28,3 @@ Me llamo la atención el como se calcula y programa la gravedad
 **En resumen:**
 
 Las leyes de Newton describen cómo las fuerzas afectan el movimiento de los objetos.  Las fuerzas, la aceleración y el desplazamiento son cantidades vectoriales, lo que significa que tienen magnitud y dirección.  Los vectores son una herramienta fundamental para comprender y aplicar las leyes de Newton.
-
-¿Te gustaría explorar algún ejemplo específico de cómo se usan los vectores en la aplicación de las leyes de Newton? 😊
-
