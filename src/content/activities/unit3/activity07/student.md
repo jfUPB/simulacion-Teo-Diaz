@@ -53,6 +53,3 @@ class Mover {
   }
 }
 ```
-
-### Conclusión
-Crear una copia del vector `force` es fundamental para evitar modificar su valor original. Esto no solo respeta la independencia de las fuerzas aplicadas, sino que también asegura que puedas reutilizar los vectores de fuerza en otros contextos sin problemas. En este mundo donde los píxeles tienen masa, ¡la física debe mantenerse impecable! 😉 ¿Qué opinas de esta solución?
