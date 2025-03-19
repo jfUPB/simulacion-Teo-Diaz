@@ -9,7 +9,7 @@ Para solucionar este problema, necesitamos acumular las fuerzas aplicadas antes 
 ### Implementación en `p5.js`:
 Aquí tienes una solución corregida para el método `applyForce`:
 
-```js
+```javascript
 applyForce(force) {
   this.acceleration.add(force); // Sumamos las fuerzas aplicadas
 }
@@ -17,7 +17,7 @@ applyForce(force) {
 
 Luego, en el método principal que actualiza la posición del objeto, reseteamos la aceleración después de actualizar la velocidad y posición:
 
-```js
+```javascript
 update() {
   this.velocity.add(this.acceleration); // La velocidad es afectada por la aceleración
   this.position.add(this.velocity); // La posición es afectada por la velocidad
@@ -28,7 +28,7 @@ update() {
 ### Código completo ajustado:
 Para mayor claridad, así quedaría la clase `Mover`:
 
-```js
+```javascript
 class Mover {
   constructor() {
     this.position = createVector(random(width), random(height));
@@ -59,5 +59,3 @@ class Mover {
 - La aceleración es acumulada en cada frame con todas las fuerzas aplicadas (`applyForce`).
 - La masa se incluye en la fórmula para mayor flexibilidad, aunque en este ejemplo es constante e igual a 1.
 - Reseteamos la aceleración al finalizar cada frame (`this.acceleration.mult(0);`).
-
-De esta manera, las fuerzas se combinan correctamente y reflejan con mayor precisión el comportamiento esperado basado en las leyes de Newton. ¿Qué opinas? 😊
