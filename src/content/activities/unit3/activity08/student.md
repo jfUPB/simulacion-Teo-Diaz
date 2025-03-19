@@ -57,5 +57,3 @@ En el fragmento de código:
 1. **`friction = this.velocity.copy()`** implica una **copia por valor** y es la forma adecuada para trabajar con vectores en este caso, ya que garantiza que `friction` sea independiente y no afecte `this.velocity`.
 
 2. **`friction = this.velocity`** implica una **copia por referencia**, lo que puede provocar errores si se modifica `friction`, ya que también cambiará `this.velocity`.
-
-Por lo tanto, siempre que necesites trabajar con una modificación temporal de un vector, utiliza una copia (`copy()`), evitando así modificar el objeto original. Esta práctica es fundamental para mantener el comportamiento esperado en simulaciones físicas y otros sistemas dinámicos. 😉 ¿Qué opinas de esta explicación?
