@@ -10,7 +10,7 @@ Para evitar modificar el vector original, debes crear una copia del objeto `forc
 ### Implementación en `p5.js`
 Aquí está cómo podrías implementar una solución adecuada:
 
-```js
+```javascript
 applyForce(force) {
   let f = force.copy(); // Crear una copia del vector force
   f.div(this.mass); // Aplicar la segunda ley de Newton: F = m * a, o a = F / m
@@ -26,7 +26,7 @@ applyForce(force) {
 ### Código completo ajustado
 Aquí tienes un ejemplo del flujo completo:
 
-```js
+```javascript
 class Mover {
   constructor() {
     this.position = createVector(random(width), random(height));
