@@ -1,5 +1,3 @@
-¡Qué interesante la conexión entre las leyes de Newton y el arte generativo! Ahora, analicemos el planteamiento:
-
 ### Problema detectado:
 En el método `applyForce(force)`, la línea `this.acceleration = force;` sobrescribe la aceleración anterior en lugar de acumular las fuerzas aplicadas. Esto contradice el objetivo de calcular la aceleración como la sumatoria de todas las fuerzas en cada frame, ya que cada fuerza debería ser acumulativa.
 
