@@ -90,11 +90,7 @@ Para modelar una fuerza en una simulación utilizando **p5.js**, un entorno de p
    ```
 
 6. **Ajustar los parámetros**:
-   Después de aplicar las fuerzas, puedes ajustar los parámetros del objeto (como la masa o la fuerza aplicada) para observar cómo cambian el movimiento y las interacciones en la simulación.
-
-### Conclusión
-
-Estos son los pasos básicos para modelar una fuerza en una simulación utilizando p5.js. En resumen:
+   Después de aplicar las fuerzas, ajustar los parámetros del objeto (como la masa o la fuerza aplicada) para observar cómo cambian el movimiento y las interacciones en la simulación.
 
 - Crear un objeto (como una partícula o cuerpo).
 - Aplicar fuerzas utilizando vectores.
