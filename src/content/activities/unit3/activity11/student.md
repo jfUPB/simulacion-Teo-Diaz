@@ -1,10 +1,10 @@
-## Simulación: "Calder's Cosmos"
+## Simulación:
 
 **Código:**
 
 ```javascript
 let bodies = [];
-let G = 0.5; // Constante gravitacional (aumentada)
+let G = 4.9; // Constante gravitacional (aumentada)
 
 function setup() {
   createCanvas(800, 600);
@@ -75,6 +75,8 @@ function draw() {
 
 **Imagen:**
 
+
+**Enlace** https://editor.p5js.org/Teo-Diaz/sketches/tldUYnJVt
 
 **Inspiración de Calder:**
 
