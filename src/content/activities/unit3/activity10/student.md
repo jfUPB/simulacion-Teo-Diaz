@@ -35,7 +35,7 @@ function draw() {
 }
 ```
 **Enlace:** https://editor.p5js.org/Teo-Diaz/sketches/XfBKSYQPD
-**Explicación:**
+### **Explicación:**
 
 * La variable `friction` representa la fuerza de fricción. Puedes modificarla para ver cómo afecta el movimiento del objeto.
 * En cada cuadro, se calcula la fuerza de fricción en las direcciones horizontal (`fx`) y vertical (`fy`).
@@ -82,7 +82,7 @@ function draw() {
 }
 ```
 **Enlace** https://editor.p5js.org/Teo-Diaz/sketches/fllE1QVNy
-**Explicación:**
+### **Explicación:**
 
 * La variable `airDensity` representa la densidad del aire. Puedes modificarla para simular diferentes ambientes.
 * La fuerza de resistencia del aire se calcula usando la fórmula \( F_d = \frac{1}{2} \rho v^2 C_d A \), donde \( \rho \) es la densidad del aire, \( v \) es la velocidad del objeto, \( C_d \) es el coeficiente de arrastre y \( A \) es el área de la superficie frontal del objeto.
