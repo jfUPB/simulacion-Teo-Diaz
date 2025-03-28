@@ -148,7 +148,7 @@ function draw() {
 }
 ```
 **Enlace** https://editor.p5js.org/Teo-Diaz/sketches/IATq9HvsR
-**Explicación:**
+### **Explicación:**
 
 * La variable `G` representa la constante gravitacional. Puedes modificarla para simular diferentes ambientes.
 * La fuerza gravitacional se calcula usando la fórmula \( F = G \frac{m_1 m_2}{r^2} \), donde \( G \) es la constante gravitacional, \( m_1 \) y \( m_2 \) son las masas de los objetos y \( r \) es la distancia entre ellos.
