@@ -34,7 +34,7 @@ function draw() {
   ellipse(x, y, 20, 20);
 }
 ```
-
+**Enlace:** https://editor.p5js.org/Teo-Diaz/sketches/XfBKSYQPD
 **Explicación:**
 
 * La variable `friction` representa la fuerza de fricción. Puedes modificarla para ver cómo afecta el movimiento del objeto.
@@ -81,7 +81,7 @@ function draw() {
   ellipse(x, y, 20, 20);
 }
 ```
-
+**Enlace** https://editor.p5js.org/Teo-Diaz/sketches/fllE1QVNy
 **Explicación:**
 
 * La variable `airDensity` representa la densidad del aire. Puedes modificarla para simular diferentes ambientes.
@@ -147,7 +147,7 @@ function draw() {
   ellipse(x2, y2, 10, 10);
 }
 ```
-
+**Enlace** https://editor.p5js.org/Teo-Diaz/sketches/IATq9HvsR
 **Explicación:**
 
 * La variable `G` representa la constante gravitacional. Puedes modificarla para simular diferentes ambientes.
