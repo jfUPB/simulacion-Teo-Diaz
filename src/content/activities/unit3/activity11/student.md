@@ -75,11 +75,8 @@ function draw() {
 
 **Imagen:**
 
-
 **Enlace** https://editor.p5js.org/Teo-Diaz/sketches/tldUYnJVt
 
 **Inspiración de Calder:**
 
 La simulación busca capturar la esencia del movimiento y el equilibrio de las esculturas cinéticas de Calder. Los cuerpos en movimiento, con sus diferentes masas y colores, crean un espectáculo dinámico y fascinante que evoca la complejidad del universo.
-
-¿Te gustaría explorar cómo se modifica el comportamiento de la simulación al cambiar la constante gravitacional o la cantidad de cuerpos? ¡Sigue preguntando! 
