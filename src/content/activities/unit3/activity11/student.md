@@ -4,7 +4,7 @@
 
 ```javascript
 let bodies = [];
-let G = 0.01; // Constante gravitacional
+let G = 0.5; // Constante gravitacional (aumentada)
 
 function setup() {
   createCanvas(800, 600);
