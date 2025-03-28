@@ -65,7 +65,7 @@ function draw() {
   }
 }
 ```
-/src/assets/mi_captura.png
+![captura del ejercicio](/src/assets/mi_captura.png)
 **Explicación:**
 
 * La simulación crea un conjunto de cuerpos con diferentes masas y posiciones aleatorias.
