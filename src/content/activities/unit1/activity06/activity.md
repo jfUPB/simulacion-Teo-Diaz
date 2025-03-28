@@ -1,6 +1,6 @@
 #### Distribución personalizada: Lévy flight
 
-**Enunciado**: realiza una simulación donde visualices un salta de Lévy.
+**Enunciado**: realiza una simulación donde visualices un salto de Lévy.
 
 **Entrega**: 
 
