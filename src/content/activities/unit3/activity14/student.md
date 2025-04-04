@@ -1,0 +1,1 @@
+las estrategias de aprendizage fueron leer y prueba y error con algo de ayuda de ias como chat gpt y copilot, principalmente cuando tenia errores que no comprendia o no tenia claro por donde encarar un problema, de esa forma comprendia mejor las cosas y podia aplicarlas.
