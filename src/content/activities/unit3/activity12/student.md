@@ -1,0 +1,1 @@
+debido a mis conocimientos previos de fisica y las unidades anteriores no fue dificil lograr los ejercicios planteados, por ejemplo en el ejercicio de los n-cuerpos simplemente fue aplicar las formulas de atraccion gravitaria para lograr el programa
