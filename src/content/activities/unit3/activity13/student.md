@@ -17,7 +17,3 @@ En el diseño de animaciones digitales para películas y series, las leyes de Ne
 En aplicaciones educativas y simuladores, las leyes de Newton se emplean para enseñar conceptos de física de manera interactiva, permitiendo a los usuarios experimentar con el comportamiento de los objetos bajo diferentes condiciones.
 
 **Ejemplo:** En simuladores como *PhET Interactive Simulations* (desarrollado por la Universidad de Colorado Boulder), se utilizan las leyes de Newton para crear simulaciones de dinámica de partículas, movimiento de proyectiles, y otros experimentos físicos. Los usuarios pueden modificar variables como la masa, la velocidad o las fuerzas aplicadas, y observar cómo estos cambios afectan el movimiento de los objetos en la simulación. Este tipo de aplicaciones enseña de manera visual y práctica conceptos clave de la física, como la relación entre la fuerza, la masa y la aceleración (Segunda Ley de Newton).
-
-### Conclusión
-
-Las leyes de Newton no solo son fundamentales en el mundo real, sino que también desempeñan un papel crucial en el desarrollo de entretenimientos digitales como videojuegos, películas de animación y simuladores. Su aplicación permite crear experiencias realistas y educativas, simulando comportamientos físicos complejos de manera efectiva.
