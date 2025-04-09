@@ -76,5 +76,6 @@ class Vehicle {
   }
 }
 ```
+### Captura del ejercicio
 ![captura del ejercicio](/src/assets/Triangulo.png)
 
