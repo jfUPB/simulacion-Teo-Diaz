@@ -76,3 +76,5 @@ class Vehicle {
   }
 }
 ```
+
+[/src/assets/Captura de pantalla 2025-04-09 134149.png]
