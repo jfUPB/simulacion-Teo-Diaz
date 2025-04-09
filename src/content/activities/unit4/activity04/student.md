@@ -1,9 +1,6 @@
 ### Respuesta a las preguntas
 
-#### 1. **Identificación de "Motion 101"**:
-El término "Motion 101" generalmente se refiere a una simulación básica de movimiento en física, donde se visualizan objetos moviéndose bajo ciertas condiciones (sin fuerzas, con velocidad constante, etc.). En este tipo de simulación, el objeto puede moverse según las leyes básicas de movimiento, pero sin considerar fuerzas adicionales como la gravedad, fricción, o cualquier otro tipo de interacción externa.
-
-#### 2. **Modificación necesaria al "Motion 101" cuando se quieren agregar fuerzas acumulativas**:
+#### 1. **Modificación necesaria al "Motion 101" cuando se quieren agregar fuerzas acumulativas**:
 Para agregar fuerzas acumulativas en un modelo básico de movimiento como "Motion 101", se deben realizar varias modificaciones. En una simulación sin fuerzas, el objeto se mueve en línea recta con velocidad constante. Sin embargo, cuando agregamos fuerzas, como la gravedad o la interacción con un "attractor", necesitamos modificar la aceleración del objeto.
 
 Para hacerlo, se debe:
@@ -26,7 +23,7 @@ function update() {
 }
 ```
 
-#### 3. **Identificación del "Attractor" en la simulación**:
+#### 2. **Identificación del "Attractor" en la simulación**:
 El "Attractor" en la simulación generalmente es un punto o un objeto que genera una fuerza de atracción hacia sí. En la simulación, puede estar representado por un círculo o algún otro tipo de objeto visual que atrae a los elementos cercanos.
 
 Para identificarlo, es común que se vea algo similar a esto en el código:
@@ -37,7 +34,7 @@ this.size = 50;
 ```
 El "Attractor" tiene una fuerza centrípeta que atrae a otros objetos hacia su posición.
 
-#### 4. **Cambiar el color del Attractor**:
+#### 3. **Cambiar el color del Attractor**:
 Para cambiar el color del "Attractor", se puede agregar una línea de código dentro de la función `display()` donde se dibuja. Aquí un ejemplo básico:
 
 ```javascript
