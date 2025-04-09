@@ -76,5 +76,5 @@ class Vehicle {
   }
 }
 ```
-![captura del ejercicio](/src/assets/Salto_Levy.png)
+![captura del ejercicio](/src/assets/Triangulo.png)
 
