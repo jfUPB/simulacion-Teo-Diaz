@@ -77,4 +77,4 @@ class Vehicle {
 }
 ```
 
-[/src/assets/Captura de pantalla 2025-04-09 134149.png]
+![Captura del ejercicio](/src/assets/Captura de pantalla 2025-04-09 134149.png)
