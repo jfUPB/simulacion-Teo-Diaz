@@ -73,4 +73,4 @@ function draw() {
   }
 }
 ```
-![captura del ejercicio](/
+![captura del ejercicio](/src/assets/colores.png)
