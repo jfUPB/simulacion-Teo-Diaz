@@ -51,4 +51,4 @@ function keyPressed() {
   period = 1 / frequency;
 }
 ```
-![captura del ejercicio](
+![captura del ejercicio](/src/assets/Sin.png)
