@@ -35,4 +35,4 @@ function draw() {
   angle += 0.1;
 }
 ```
-![captura del ejercicio](/
+![captura del ejercicio](/src/assets/Wave.png)
