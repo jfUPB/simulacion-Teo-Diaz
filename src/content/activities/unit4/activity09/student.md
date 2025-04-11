@@ -137,4 +137,4 @@ function mouseReleased() {
   bob2.stopDragging();
 }
 ```
-![captura del ejercicio](/
+![captura del ejercicio](/src/assets/Resorte.png)
