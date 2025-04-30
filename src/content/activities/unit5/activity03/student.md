@@ -128,3 +128,4 @@ class FastParticle extends Particle {
 ### 🔗 **Enlace al Editor de p5.js**
 [🔗 Ver obra en p5.js Web Editor]([https://editor.p5js.org/](https://editor.p5js.org/Teo-Diaz/sketches/PMuyQvGC3)
 ### **Captura de Pantalla**
+![captura del ejercicio](/src/assets/Triangulo.png)
