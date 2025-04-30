@@ -1,6 +1,3 @@
-https://editor.p5js.org/Teo-Diaz/sketches/PMuyQvGC3
-
-
 ### **Idea Inicial**
 Crear una obra de arte basada en partículas que se comporten como ecos visuales del movimiento del usuario (a través del mouse). Las partículas reaccionan en tiempo real y desaparecen con el tiempo. Además, algunas cambiarán su comportamiento dependiendo de la distancia al cursor (polimorfismo). Esta pieza representa la idea de cómo dejamos rastros en nuestro entorno.
 
