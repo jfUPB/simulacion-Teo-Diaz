@@ -1,7 +1,7 @@
 https://editor.p5js.org/Teo-Diaz/sketches/PMuyQvGC3
 
 
-### 💡 **Idea Inicial**
+### **Idea Inicial**
 Crear una obra de arte basada en partículas que se comporten como ecos visuales del movimiento del usuario (a través del mouse). Las partículas reaccionan en tiempo real y desaparecen con el tiempo. Además, algunas cambiarán su comportamiento dependiendo de la distancia al cursor (polimorfismo). Esta pieza representa la idea de cómo dejamos rastros en nuestro entorno.
 
 ---
@@ -17,13 +17,13 @@ Crear una obra de arte basada en partículas que se comporten como ecos visuales
 
 ---
 
-### ⏱️ **Gestión del Tiempo de Vida y Memoria**
+### **Gestión del Tiempo de Vida y Memoria**
 
 Cada partícula tiene una propiedad `lifespan`. En cada frame, disminuye. Cuando llega a 0, se elimina del array principal (`particles`). Esto mantiene la memoria optimizada y simula el paso del tiempo.
 
 ---
 
-### 🧪 **Experimentación y Proceso Creativo**
+### **Experimentación y Proceso Creativo**
 1. Bocetos en papel: líneas curvas que seguían al mouse como estelas.
 2. Primer prototipo: partículas básicas que desaparecían.
 3. Mejora: clases hijas con diferentes velocidades.
@@ -130,4 +130,4 @@ class FastParticle extends Particle {
 
 ### 🔗 **Enlace al Editor de p5.js**
 [🔗 Ver obra en p5.js Web Editor]([https://editor.p5js.org/](https://editor.p5js.org/Teo-Diaz/sketches/PMuyQvGC3)
-### 🖼️ **Captura de Pantalla**
+### **Captura de Pantalla**
