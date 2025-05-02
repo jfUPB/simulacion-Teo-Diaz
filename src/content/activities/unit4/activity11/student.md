@@ -27,9 +27,9 @@ function setup() {
 
 function draw() {
   background(20);
-  
+
   for (let p of particles) {
-    p.applyForce(mouseX, mouseY); 
+    p.applyForce(mouseX, mouseY);
     p.update();
     p.display();
   }
@@ -39,9 +39,9 @@ function draw() {
 class Particle {
   constructor(x, y) {
     this.position = createVector(x, y);
-    this.velocity = createVector(random(-1, 1), random(-1, 1));
+    this.velocity = createVector(random(-2, 2), random(-2, 2));
     this.acceleration = createVector(0, 0);
-    this.maxForce = 0.1;
+    this.maxForce = 0.2;
     this.size = 8;
   }
 
@@ -49,17 +49,25 @@ class Particle {
     let mouseForce = createVector(mx, my);
     let force = p5.Vector.sub(mouseForce, this.position);
     let distance = force.mag();
-    distance = constrain(distance, 5, 100);
-    let strength = map(distance, 5, 100, 1, 0);
+    distance = constrain(distance, 5, 150);
+    let strength = map(distance, 5, 150, 1, 0);
     force.setMag(strength * this.maxForce);
     this.acceleration.add(force);
   }
 
   update() {
     this.velocity.add(this.acceleration);
-    this.velocity.limit(2);
+    this.velocity.limit(3);
     this.position.add(this.velocity);
     this.acceleration.mult(0);
+
+    // Rebote en los bordes del canvas
+    if (this.position.x <= 0 || this.position.x >= width) {
+      this.velocity.x *= -1;
+    }
+    if (this.position.y <= 0 || this.position.y >= height) {
+      this.velocity.y *= -1;
+    }
   }
 
   display() {
@@ -69,6 +77,7 @@ class Particle {
   }
 }
 
+// Interacción con teclado
 function keyPressed() {
   if (key === 'A') {
     particles.push(new Particle(random(width), random(height))); 
