@@ -3,7 +3,7 @@
 (https://editor.p5js.org/Teo-Diaz/sketches/x2PqfskhQ)
 ### **Captura de Pantalla**
 
-![captura del ejercicio](/src/assets/2Pendulo.png)
+![captura del ejercicio](/src/assets/cielo.png)
 
 ### **Concepto**
 La obra se basará en **sistemas dinámicos de partículas** que se atraen y repelen entre sí, creando patrones visuales emergentes. Los usuarios podrán interactuar con el sistema modificando las fuerzas con el **mouse** y **teclado**, influyendo en el comportamiento de las partículas en tiempo real.
