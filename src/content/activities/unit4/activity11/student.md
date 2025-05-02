@@ -1,5 +1,3 @@
-¡Esto suena increíble, Teo! Vamos a diseñar una **obra de arte generativa algorítmica interactiva en tiempo real** en **p5.js** con un sistema de partículas que interactúan entre sí mediante fuerzas y responden al teclado y al mouse.  
-
 ### **Concepto**
 La obra se basará en **sistemas dinámicos de partículas** que se atraen y repelen entre sí, creando patrones visuales emergentes. Los usuarios podrán interactuar con el sistema modificando las fuerzas con el **mouse** y **teclado**, influyendo en el comportamiento de las partículas en tiempo real.
 
