@@ -1,6 +1,8 @@
 ###**Enlace al Editor de p5.js**
-[Ver obra en p5.js Web Editor]([https://editor.p5js.org/](Teo-Diaz/sketches/Iqfi7zVTW)
+
+(https://editor.p5js.org/Teo-Diaz/sketches/Iqfi7zVTW)
 ### **Captura de Pantalla**
+
 ![captura del ejercicio](/src/assets/2Pendulo.png)
 ````
 let doublePendulum;
