@@ -1,4 +1,4 @@
-###**Enlace al Editor de p5.js**
+### **Enlace al Editor de p5.js**
 
 (https://editor.p5js.org/Teo-Diaz/sketches/Iqfi7zVTW)
 ### **Captura de Pantalla**
