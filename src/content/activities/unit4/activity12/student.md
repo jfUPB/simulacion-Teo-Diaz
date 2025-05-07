@@ -11,5 +11,3 @@
 
 4. **¿Qué aprendiste sobre las oscilaciones y su aplicación en el arte generativo?**  
    Descubrí que las oscilaciones pueden ser una **herramienta fundamental** en la creación de patrones generativos. Al jugar con frecuencias y amplitudes, se pueden generar sistemas dinámicos que evolucionan de manera impredecible pero armónica. Además, entendí la importancia de la **interacción** como un medio para enriquecer la experiencia visual y dar al usuario la posibilidad de influir en la obra.
-
-Tu proyecto refleja un **enfoque sólido en la simulación de fenómenos físicos** dentro del arte generativo. Si te interesa profundizar más, podríamos explorar métodos para integrar fuerzas externas o sincronización de osciladores en futuras iteraciones. 🚀
