@@ -1,7 +1,3 @@
-A continuación, te presento una reflexión organizada y fundamentada que podría servir como aporte para quienes tomen este curso en el futuro:
-
----
-
 ### 1. Reflexión sobre "Arrels" de Anna Carreras
 
 Al observar "Arrels" se percibe una sensibilidad muy orgánica en la formación de estructuras y patrones. Las imágenes y videos de la obra sugieren que, detrás de su estética, existen reglas generativas simples que imitan procesos naturales. Por ejemplo:
@@ -44,11 +40,3 @@ De manera opcional, el video de Blender titulado "CRAZY 3D Flow Fields in Blende
 - **Posibilidades creativas:** Esta técnica abre un abanico de posibilidades en animación 3D, donde se pueden simular comportamientos complejos (como la formación de remolinos, flujos de líquido o patrones naturales) sin tener que animar cada parte de forma manual. Se logra así un resultado orgánico y sorprendente que puede ser empleado para efectos visuales, simulaciones y arte digital interactivamente.
 
 El concepto de flow field refuerza la idea de que, mediante reglas simples y locales, se pueden generar comportamientos que, a nivel global, se perciben como emergentes y llenos de "vida".
-
----
-
-### Conclusión
-
-Ambas obras, "Arrels" y "Encuentros", ejemplifican de manera magistral cómo el uso de agentes autónomos y reglas simples puede resultar en comportamientos emergentes que evocan procesos naturales y orgánicos. Para futuros estudiantes y artistas, entender que la complejidad puede surgir de la suma de interacciones básicas es clave para aplicar estos conceptos en animación 3D, diseño generativo y otras áreas creativas.
-
-Espero que esta reflexión te sirva a ti y a tus compañeros para inspirarse y experimentar con nuevas formas de generar arte a partir de principios autónomos y emergentes. ¿Te gustaría explorar más ejemplos prácticos o algún caso particular de implementación en Blender? ¡Sigamos conversando!
